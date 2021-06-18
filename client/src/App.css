@@ -9,8 +9,9 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #181818;
   display: flex;
+  color:#fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -41,7 +42,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: rgb(75, 75, 75);
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -55,7 +56,7 @@ h4 {
 }
 
 .inc-exp-container > div:first-of-type {
-  border-right: 1px solid #dedede;
+  border-right: 1px solid #3d3d3d;
 }
 
 .money {
@@ -79,7 +80,7 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid #dedede;
+  border: 1px solid #161616;
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -89,7 +90,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #000baa;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -112,9 +113,9 @@ input[type='number'] {
 }
 
 .list li {
-  background-color: #fff;
+  background-color: rgb(32, 32, 32);
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: rgb(211, 211, 211);
   display: flex;
   justify-content: space-between;
   position: relative;
